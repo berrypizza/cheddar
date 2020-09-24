@@ -1,0 +1,47 @@
+@import "reset.css";
+
+.main-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: #f9f9fa;
+  overflow: hidden;
+}
+
+.clock-box {
+  background: #f9f9fa;
+  width: 100%;
+  margin: 10% 10%;
+  height: 100px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px 1px rgba(80, 60, 180, 0.3);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.7s cubic-bezier(0.365, 0.26, 0.01, 1);
+  will-change: auto;
+  position: relative;
+}
+
+.clock-box:hover {
+  box-shadow: 2px 2px 5px 2px rgba(80, 60, 180, 0.5);
+}
+
+.clock-time {
+  font-size: 50px;
+  color: rgba(80, 60, 180, 0.5);
+}
+
+form {
+  display: none;
+}
+
+.moving {
+  display: block;
+  position: absolute;
+  top: 30px;
+}
