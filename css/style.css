@@ -62,7 +62,7 @@ input::placeholder {
 .moving {
   display: block;
   position: absolute;
-  top: 30px;
+  top: 32px;
 }
 
 .greeting-text {
