@@ -76,7 +76,7 @@ input::placeholder {
 
 .showing {
   display: block;
-  animation: formbox 1.5s ease-in-out forwards;
+  animation: formbox 1.3s ease-in-out forwards;
 }
 
 @keyframes formbox {
