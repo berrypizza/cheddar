@@ -2,8 +2,8 @@ const form = document.querySelector(".form-of-name"),
   input = form.querySelector("input"),
   greetingText = document.querySelector(".greeting-text");
 
-const USER_LS = "currentUser",
-  SHOWING_CN = "showing";
+const USER_LS = "currentUser";
+const SHOWING_CN = "showing";
 
 function greeting(text) {
   form.classList.remove(SHOWING_CN);
