@@ -4,10 +4,13 @@ const form = document.querySelector(".form-of-name"),
 
 const USER_LS = "currentUser";
 const SHOWING_CN = "showing";
+const CHANGE_CN = "change-location";
 
 function greeting(text) {
   form.classList.remove(SHOWING_CN);
   greetingText.classList.add(SHOWING_CN);
+  greetingText.classList.add(CHANGE_CN);
+
   greetingText.innerText = `hello ${text}`;
 }
 

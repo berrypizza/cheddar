@@ -20,6 +20,7 @@
   box-shadow: 2px 2px 5px 1px rgba(80, 60, 180, 0.3);
   border-radius: 15px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: all 0.7s cubic-bezier(0.365, 0.26, 0.01, 1);
@@ -76,17 +77,30 @@ input::placeholder {
 
 .showing {
   display: block;
-  animation: formbox 1.3s ease-in-out forwards;
+  animation: formbox 2s ease-in-out forwards;
 }
 
 @keyframes formbox {
   0% {
     filter: blur(5em);
+    top: 0;
   }
   20% {
     filter: blur(5em);
+    top: 0;
+  }
+  50% {
+    filter: blur(0);
+    top: 0;
   }
   100% {
     filter: blur(0);
+    top: -180px;
   }
+}
+
+.change-location {
+  width: 300px;
+  left: 10px;
+  position: relative;
 }
