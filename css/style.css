@@ -37,7 +37,7 @@
   color: rgba(80, 60, 180, 0.5);
 }
 
-form {
+.form-of-name {
   background: rgba(80, 60, 180, 0.3);
   width: 100%;
   display: none;
